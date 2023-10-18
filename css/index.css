@@ -15,7 +15,7 @@ body
 }
 #preloader
 {
-   background: #13A5BD url("../images/CairoExpress.gif") no-repeat center center;
+   background: #13A5BD url("../images/box.gif") no-repeat center center;
    bottom: 0;
    position: fixed;
    top: 0;
@@ -24,14 +24,14 @@ body
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
 {
-   #wb_LayoutGrid8, #wb_LayoutGrid9, #wb_LayoutGrid4, #wb_links
+   #wb_LayoutGrid8, #wb_LayoutGrid7, #wb_LayoutGrid11, #wb_LayoutGrid9, #wb_LayoutGrid4, #wb_links
    {
       background-attachment: scroll !important;
    }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
 {
-   #wb_LayoutGrid8, #wb_LayoutGrid9, #wb_LayoutGrid4, #wb_links
+   #wb_LayoutGrid8, #wb_LayoutGrid7, #wb_LayoutGrid11, #wb_LayoutGrid9, #wb_LayoutGrid4, #wb_links
    {
       background-attachment: scroll !important;
    }
@@ -226,6 +226,11 @@ body
    text-align: center;
    width: 100%;
    background-color: transparent;
+   background-image: url('../images/127531800_196298038698252_8716161209163790471_n.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
    border: 0px solid #CCCCCC;
    border-radius: 0px;
    box-sizing: border-box;
@@ -253,9 +258,211 @@ body
 #LayoutGrid8 > .col-1
 {
    flex: 0 0 auto;
-   height: 60px;
 }
 #LayoutGrid8 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid8 > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 300px 0 300px 0;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid8 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid5
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid5 > .col-1
+{
+   flex: 0 0 auto;
+}
+#LayoutGrid5 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid5 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid7
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url('../images/f696aeb9-dfd2-45e1-8515-89709c761b55.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid7
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid7 > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid7 > .col-1
+{
+   flex: 0 0 auto;
+}
+#LayoutGrid7 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid7 > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 100px 0 100px 0;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid7 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid10
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid10
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid10 > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid10 > .col-1
+{
+   flex: 0 0 auto;
+   height: 54px;
+}
+#LayoutGrid10 > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -269,7 +476,74 @@ body
    justify-content: center;
    text-align: center;
 }
-#LayoutGrid8 > .col-1 > .col-1-padding
+@media (max-width: 480px)
+{
+#LayoutGrid10 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+   height: auto;
+}
+}
+#wb_LayoutGrid11
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url('../images/1213.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid11
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid11 > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid11 > .col-1
+{
+   flex: 0 0 auto;
+}
+#LayoutGrid11 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid11 > .col-1 > .col-1-padding
 {
    box-sizing: border-box;
    width: 100%;
@@ -277,32 +551,11 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid8 > .col-1
+#LayoutGrid11 > .col-1
 {
    flex-basis: 100% !important;
    max-width: 100% !important;
-   height: auto;
 }
-}
-#LayoutGrid8-video
-{
-   background: #000000;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
-   z-index: -99;
-}
-#LayoutGrid8-video iframe
-{
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   pointer-events: none;
 }
 .DropdownMenu1 .nav
 {
@@ -849,6 +1102,68 @@ body
    width: 399px;
    height: 30px;
 }
+#wb_LayoutGrid12
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid12
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid12 > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid12 > .col-1
+{
+   flex: 0 0 auto;
+}
+#LayoutGrid12 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid12 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -1034,7 +1349,7 @@ body
    width: 250px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1769,16 +2084,6 @@ body
    width: 100%;
 }
 }
-#links-overlay
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   background-color: #000000;
-   opacity: 0.6;
-}
 #wb_linksText3 
 {
    background-color: transparent;
@@ -2030,8 +2335,8 @@ body
 #wb_Text5
 {
    color: #000000;
-   font-family: Cairo;
-   font-weight: 400;
+   font-family: "El Messiri";
+   font-weight: 500;
    font-size: 16px;
 }
 #wb_Text5 p, #wb_Text5 ul
@@ -2120,7 +2425,7 @@ body
    width: 250px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -2236,7 +2541,7 @@ body
    width: 250px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -2352,7 +2657,7 @@ body
    width: 250px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -2545,7 +2850,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card1-card-item3
 {
@@ -2632,7 +2937,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card2-card-item3
 {
@@ -2719,7 +3024,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card3-card-item3
 {
@@ -2806,7 +3111,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card4-card-item3
 {
@@ -2893,7 +3198,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card5-card-item3
 {
@@ -2980,7 +3285,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card6-card-item3
 {
@@ -3127,14 +3432,106 @@ body
    background-image: none;
    color: #FFFFFF;
 }
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   line-height: 1.8;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text8
+{
+   color: #000000;
+   font-family: "El Messiri";
+   font-weight: 500;
+   font-size: 17px;
+}
+#wb_Text8 div
+{
+   text-align: right;
+}
+#wb_Text8
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   line-height: 1.8;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text9
+{
+   color: #000000;
+   font-family: "El Messiri";
+   font-weight: 500;
+   font-size: 17px;
+}
+#wb_Text9 div
+{
+   text-align: right;
+}
+#wb_Text9
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   line-height: 1.8;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text10
+{
+   color: #000000;
+   font-family: "El Messiri";
+   font-weight: 500;
+   font-size: 17px;
+}
+#wb_Text10 div
+{
+   text-align: right;
+}
+#wb_Text10
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_uid12
+{
+   color: #FFFFFF;
+}
 #wb_Card6
 {
    display: flex;
    width: 100%;
-   z-index: 15;
+   z-index: 18;
 }
 #wb_uid5
 {
+   font-weight: bold;
    color: #CC0000;
 }
 #Html3
@@ -3144,25 +3541,27 @@ body
    height: 52px;
    z-index: 3;
 }
+#wb_uid13
+{
+   color: #FFFFFF;
+}
 #wb_Card1
 {
    display: flex;
    width: 100%;
-   z-index: 9;
+   z-index: 12;
 }
 #wb_uid4
 {
-   font-weight: bold;
-   color: #CC0000;
+   color: #000000;
 }
 #wb_uid10
 {
-   color: #FFFFFF;
+   color: #CC0000;
 }
 #wb_uid3
 {
-   font-weight: bold;
-   color: #CC0000;
+   color: #000000;
 }
 #wb_Text4
 {
@@ -3172,24 +3571,27 @@ body
    width: 57px;
    height: 24px;
    text-align: center;
-   z-index: 26;
+   z-index: 29;
+}
+#wb_uid11
+{
+   color: #000000;
 }
 #wb_Card3
 {
    display: flex;
    width: 100%;
-   z-index: 11;
+   z-index: 14;
 }
 #wb_uid2
 {
-   font-weight: bold;
-   color: #CC0000;
+   color: #000000;
 }
 #wb_Card2
 {
    display: flex;
    width: 100%;
-   z-index: 10;
+   z-index: 13;
 }
 #wb_uid1
 {
@@ -3200,17 +3602,25 @@ body
    display: inline-block;
    width: 50px;
    height: 52px;
-   z-index: 5;
+   z-index: 8;
 }
 #wb_uid0
 {
    color: #13A5BD;
 }
+#wb_uid14
+{
+   color: #FFFFFF;
+}
 #wb_Section1
 {
    display: flex;
    width: 100%;
-   z-index: 16;
+   z-index: 19;
+}
+#wb_uid15
+{
+   color: #FFFFFF;
 }
 #wb_Lottie2
 {
@@ -3219,7 +3629,7 @@ body
    top: 10px;
    width: 85px;
    height: 66px;
-   z-index: 27;
+   z-index: 30;
 }
 #wb_Lottie1
 {
@@ -3228,27 +3638,27 @@ body
    top: 0px;
    width: 80px;
    height: 76px;
-   z-index: 24;
+   z-index: 27;
 }
 #wb_Lottie4
 {
    display: inline-block;
    width: 223px;
    height: 65px;
-   z-index: 21;
+   z-index: 24;
 }
 #wb_Section3
 {
    display: flex;
    width: 100%;
-   z-index: 18;
+   z-index: 21;
 }
 #ThemeableButton1
 {
    display: block;
    width: 100%;
    height: 50px;
-   z-index: 12;
+   z-index: 15;
 }
 #wb_Lottie3
 {
@@ -3261,7 +3671,7 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 17;
+   z-index: 20;
 }
 #wb_Text3
 {
@@ -3271,7 +3681,7 @@ body
    width: 60px;
    height: 24px;
    text-align: center;
-   z-index: 25;
+   z-index: 28;
 }
 #Layer1
 {
@@ -3282,20 +3692,20 @@ body
    bottom: 3px;
    width: 252px;
    height: 148px;
-   z-index: 41;
+   z-index: 49;
 }
 #wb_Section7
 {
    display: flex;
    width: 100%;
-   z-index: 19;
+   z-index: 22;
 }
 #wb_TextArt2
 {
    display: inline-block;
    width: 336px;
    height: 35px;
-   z-index: 6;
+   z-index: 9;
    position: relative;
 }
 #Layer2
@@ -3308,21 +3718,21 @@ body
    bottom: 3px;
    width: 268px;
    height: 140px;
-   z-index: 42;
+   z-index: 50;
 }
 #wb_uid9
 {
-   color: #FFFFFF;
-}
-#wb_uid8
-{
-   color: #FFFFFF;
+   color: #000000;
 }
 #wb_Card5
 {
    display: flex;
    width: 100%;
-   z-index: 14;
+   z-index: 17;
+}
+#wb_uid8
+{
+   color: #CC0000;
 }
 #Layer2_Container
 {
@@ -3332,15 +3742,16 @@ body
    margin-right: 0;
    text-align: left;
 }
-#wb_uid7
-{
-   color: #FFFFFF;
-}
 #wb_Card4
 {
    display: flex;
    width: 100%;
-   z-index: 13;
+   z-index: 16;
+}
+#wb_uid7
+{
+   font-weight: bold;
+   color: #CC0000;
 }
 #wb_DropdownMenu1
 {
@@ -3351,7 +3762,8 @@ body
 }
 #wb_uid6
 {
-   color: #000000;
+   font-weight: bold;
+   color: #CC0000;
 }
 @media only screen and (max-width: 969px)
 {
@@ -3452,8 +3864,8 @@ body
    border-radius: 0px;
    align-content: flex-start;
    align-items: flex-start;
-   justify-content: center;
-   text-align: center;
+   justify-content: flex-end;
+   text-align: right;
 }
 #الرئيسية > .col-2
 {
@@ -3474,13 +3886,13 @@ body
 }
 #wb_LayoutGrid8
 {
-   height: 75vh;
+   height: auto;
    margin-top: 10px;
    margin-bottom: 0px;
 }
 #LayoutGrid8
 {
-   height: 75vh;
+   height: auto;
    padding: 0;
 }
 #LayoutGrid8 > .col-1
@@ -3495,14 +3907,156 @@ body
    max-width: 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
+   align-content: flex-end;
    align-items: flex-end;
-   justify-content: flex-end;
-   text-align: right;
+   justify-content: center;
+   text-align: center;
 }
 #LayoutGrid8 > .col-1 > .col-1-padding
 {
    width: 100%;
+   padding: 150px 0 150px 0;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid5
+{
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   height: auto;
    padding: 0;
+}
+#LayoutGrid5 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .col-1
+{
+   display: flex;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   align-content: flex-end;
+   align-items: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid7
+{
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   height: auto;
+   padding: 0;
+}
+#LayoutGrid7 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid7 > .col-1
+{
+   display: flex;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   align-content: flex-end;
+   align-items: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+#LayoutGrid7 > .col-1 > .col-1-padding
+{
+   width: 100%;
+   padding: 150px 0 150px 0;
+}
+#wb_LayoutGrid10
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid10
+{
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+#LayoutGrid10
+{
+   height: auto;
+   padding: 0;
+}
+#LayoutGrid10 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid10 > .col-1
+{
+   display: flex;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   align-items: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+#wb_LayoutGrid11
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid11
+{
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+#LayoutGrid11
+{
+   height: auto;
+   padding: 0;
+}
+#LayoutGrid11 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid11 > .col-1
+{
+   display: flex;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   align-content: flex-end;
+   align-items: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+#LayoutGrid11 > .col-1 > .col-1-padding
+{
+   width: 100%;
+   padding: 150px 0 150px 0;
 }
 #wb_DropdownMenu1
 {
@@ -3533,6 +4087,39 @@ body
    padding: 0;
    text-align: center;
    line-height: 30px;
+}
+#wb_LayoutGrid12
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutGrid12
+{
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+#LayoutGrid12
+{
+   height: auto;
+   padding: 0;
+}
+#LayoutGrid12 > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid12 > .col-1
+{
+   display: flex;
+   flex-basis: 100%;
+   max-width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   align-content: flex-end;
+   align-items: flex-end;
+   justify-content: flex-end;
+   text-align: right;
 }
 #wb_LayoutGrid1
 {
@@ -3643,11 +4230,11 @@ body
    width: 321px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
-   line-height: 26px;
+   font-size: 16px;
+   line-height: 32px;
    text-align: right;
 }
 #Section1-card-item1
@@ -3806,6 +4393,13 @@ body
 {
    visibility: visible;
    display: table;
+   background-color: transparent;
+   background-image: url('../images/e17ff2d5-2bf1-445a-9075-05270f7bc571.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
 }
 #wb_LayoutGrid9
 {
@@ -4186,9 +4780,9 @@ body
 #wb_Lottie1
 {
    left: 0px;
-   top: 24px;
-   width: 110px;
-   height: 91px;
+   top: 40px;
+   width: 70px;
+   height: 63px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -4272,8 +4866,8 @@ body
 }
 #Html3
 {
-   width: 40px;
-   height: 30px;
+   width: 33px;
+   height: 20px;
    visibility: visible;
    display: inline-block;
 }
@@ -4324,11 +4918,11 @@ body
    width: 321px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
-   line-height: 26px;
+   font-size: 16px;
+   line-height: 32px;
    text-align: right;
 }
 #Section2-card-item1
@@ -4443,11 +5037,11 @@ body
    width: 321px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
-   line-height: 26px;
+   font-size: 16px;
+   line-height: 32px;
    text-align: right;
 }
 #Section3-card-item1
@@ -4480,7 +5074,7 @@ body
    margin: 0;
    position: absolute;
    left: 50%;
-   top: 83.3%;
+   top: 87.2%;
    transform: translateX(-50%);
    height: 4.7%;
    width: 158px;
@@ -4521,8 +5115,8 @@ body
    box-sizing: border-box;
    margin: 0;
    position: absolute;
-   left: 2.8%;
-   top: 73.7%;
+   left: 2.9%;
+   top: 79.1%;
    height: 4.4%;
    width: 4.7%;
    width: 100%;
@@ -4562,7 +5156,7 @@ body
    width: 321px;
    padding: 0;
    color: #292B2C;
-   font-family: Cairo;
+   font-family: "El Messiri";
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -4667,7 +5261,7 @@ body
 #wb_Text1
 {
    width: 205px;
-   height: 26px;
+   height: 24px;
    visibility: visible;
    display: inline-block;
 }
@@ -4733,7 +5327,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card1-card-item3
 {
@@ -4813,7 +5407,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card2-card-item3
 {
@@ -4893,7 +5487,7 @@ body
    font-style: normal;
    font-size: 16px;
    line-height: 28.8px;
-   text-align: justify;
+   text-align: right;
 }
 #Card3-card-item3
 {
@@ -4973,7 +5567,7 @@ body
    font-style: normal;
    font-size: 17px;
    line-height: 30.6px;
-   text-align: justify;
+   text-align: right;
 }
 #Card4-card-item3
 {
@@ -5053,7 +5647,7 @@ body
    font-style: normal;
    font-size: 17px;
    line-height: 30.6px;
-   text-align: justify;
+   text-align: right;
 }
 #Card5-card-item3
 {
@@ -5133,7 +5727,7 @@ body
    font-style: normal;
    font-size: 17px;
    line-height: 30.6px;
-   text-align: justify;
+   text-align: right;
 }
 #Card6-card-item3
 {
@@ -5195,5 +5789,47 @@ body
 {
    font-size: 16px;
    padding: 0;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   font-family: "El Messiri";
+   font-weight: 500;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: right;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   font-family: "El Messiri";
+   font-weight: 500;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: right;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   font-family: "El Messiri";
+   font-weight: 500;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   text-align: right;
 }
 }
