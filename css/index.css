@@ -2247,24 +2247,6 @@ body
    background-image: none;
    border-radius: 0px;
 }
-#Layer2
-{
-   background-color: transparent;
-   background-image: none;
-   border-radius: 0px;
-}
-#Lottie1
-{
-   width: 100%;
-   height: auto;
-}
-#wb_Lottie1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 100px;
-}
 #Lottie2
 {
    width: 100%;
@@ -3519,6 +3501,51 @@ body
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Icon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon1
+{
+   height: 60px;
+   width: 50px;
+}
+#Icon1 i
+{
+   color: #0D7A77;
+   display: inline-block;
+   font-size: 50px;
+   line-height: 60px;
+   vertical-align: middle;
+   width: 49px;
+}
+#wb_Icon1:hover #Icon1 i
+{
+   color: #0D7A77;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Icon1
+{
+   position: absolute;
+   left: 10px;
+   top: 20px;
+   width: 50px;
+   height: 60px;
+   text-align: center;
+   z-index: 28;
+}
 #wb_uid12
 {
    color: #FFFFFF;
@@ -3625,20 +3652,11 @@ body
 #wb_Lottie2
 {
    position: absolute;
-   left: 180px;
-   top: 10px;
+   left: 172px;
+   top: 5px;
    width: 85px;
    height: 66px;
    z-index: 30;
-}
-#wb_Lottie1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 80px;
-   height: 76px;
-   z-index: 27;
 }
 #wb_Lottie4
 {
@@ -3681,7 +3699,7 @@ body
    width: 60px;
    height: 24px;
    text-align: center;
-   z-index: 28;
+   z-index: 27;
 }
 #Layer1
 {
@@ -4762,30 +4780,9 @@ body
 #Layer1
 {
    width: 190px;
-   height: 150px;
+   height: 127px;
    visibility: visible;
    display: block;
-}
-#Layer2
-{
-   width: 200px;
-   height: 150px;
-   visibility: visible;
-   display: block;
-}
-#Layer2_Container
-{
-   width: 200px;
-}
-#wb_Lottie1
-{
-   left: 0px;
-   top: 40px;
-   width: 70px;
-   height: 63px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
 }
 #wb_Lottie2
 {
@@ -4800,11 +4797,13 @@ body
 #wb_Text3
 {
    left: 0px;
-   top: 117px;
+   top: 94px;
    width: 64px;
    height: 24px;
    visibility: visible;
    display: inline;
+   background-color: #70AD47;
+   background-image: none;
 }
 #wb_Text3
 {
@@ -4824,6 +4823,8 @@ body
    height: 24px;
    visibility: visible;
    display: inline;
+   background-color: #70AD47;
+   background-image: none;
 }
 #wb_Text4
 {
@@ -5831,5 +5832,44 @@ body
    margin: 0;
    padding: 0;
    text-align: right;
+}
+#wb_Icon1
+{
+   left: 0px;
+   top: 22px;
+   width: 70px;
+   height: 61px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+   color: #70AD47;
+}
+#Icon1
+{
+   width: 70px;
+   height: 61px;
+}
+#Icon1 i
+{
+   line-height: 61px;
+   font-size: 61px;
+   width: 60px;
+   color: #70AD47;
+}
+#Icon1:hover i
+{
+   color: #0D7A77;
+}
+#Layer2
+{
+   width: 200px;
+   height: 150px;
+   visibility: visible;
+   display: block;
+}
+#Layer2_Container
+{
+   width: 200px;
 }
 }
